@@ -1,0 +1,24 @@
+{
+  "name": "plug-nota",
+  "version": "1.0.0",
+  "description": "projeto aspira plugnota",
+  "main": "certificado.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ana julia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "form-data": "^3.0.0",
+    "fs": "0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnaBitencourt13/Demo-Plugnota-Aspira-"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
