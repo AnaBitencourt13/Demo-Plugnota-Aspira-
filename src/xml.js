@@ -5,6 +5,8 @@ const Path = require('path')
 const Axios = require('axios')
 require("dotenv/config.js")
 
+//TODO: Externalizar o config
+
 async function xmlDownload() {
         const url = (process.env.XML_URL)
         const path = Path.resolve(__dirname,'arquivos', 'aspira.xml')

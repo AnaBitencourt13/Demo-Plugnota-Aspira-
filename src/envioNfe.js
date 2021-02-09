@@ -1,5 +1,11 @@
 const axios = require('axios');
 const data = require('./arquivos/dadosNfse.js')
+
+//TODO: Externalizar o config
+//TODO: Colocar o conteudo em uma função
+//TODO: Simplificar o data: data
+//TODO: Usar async/await ao invés de promises
+
 require("dotenv/config.js")
 
     const config = {
